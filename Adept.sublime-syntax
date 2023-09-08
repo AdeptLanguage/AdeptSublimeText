@@ -42,7 +42,7 @@ contexts:
     - meta_scope: string.quoted.single.adept
     - match: \\.
       scope: constant.character.escape.adept
-    - match: \"(ub)?
+    - match: \'(ub)?
       pop: true
   multiline_comment:
     - meta_scope: comment.block.adept
